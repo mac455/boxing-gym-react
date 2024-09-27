@@ -1,8 +1,11 @@
 import React from 'react'
 
-export default function Contact() {
+export default function Classes() {
   return (
-    <div>Contact</div>
+    <div>
+      
+
+    </div>
   )
 }
  

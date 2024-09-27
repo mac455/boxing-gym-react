@@ -1,0 +1,156 @@
+.top-header {
+    display: flex;
+    height: 40vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.header-halfs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+    width: 50%;
+}
+
+/* Add a dark overlay to the image to blend better with the about-us section */
+.header-halfs::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* 50% transparent dark overlay */
+    z-index: 1; /* Ensure it stays above the image */
+}
+
+.boxer_header {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Ensure the image fills the container */
+    z-index: 0; /* Keep the image behind the overlay */
+}
+
+.image-halfs{
+    background-color: rgba(0, 0, 0, 0.963);
+    
+}
+
+.about-us-half {
+height: 100%;
+background: linear-gradient(
+     to right,
+    rgba(255, 0, 0, 0.943) 30%,
+    rgba(0, 0, 0, 0.963) 70%
+    );
+}
+
+.about-us {
+    position: relative;
+    color: rgb(197, 190, 190);
+    padding: 2rem; /* Adjust padding if needed */
+    z-index: 2;
+    font-family:"Montserrat";
+    font-weight: 200;
+    font-size: 2rem;
+    width: 100%;
+    text-align: center;
+}
+
+.our-story{
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    left: 10%;
+    margin-top: 5rem;
+    padding-bottom: 5rem;
+    max-width: 70rem;
+}
+
+.girlfight{
+    max-width: 30rem;
+    height: auto;
+}
+.gym-story{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 30rem;
+    font-size: 1.5rem;
+}
+.gym-story .story-title{
+    font-family:"Montserrat";
+    font-weight: 400;
+
+}
+.gym-story p{
+    font-size: 1.5rem;
+    font-family:"Saira Condensed", sans-serif;
+}
+.story-hr{
+    border: 0; 
+    height: 0.5vh; 
+    background-color: rgb(211, 0, 0); 
+    border-radius: 10px; 
+    width: 100%; 
+    margin: -15px 0;
+}
+
+.caterpillar-wrapper{
+    background-color: white;
+    height: auto;
+    padding-bottom: 5rem;
+}
+
+.butterfly{
+    padding-top: 5rem;
+    font-family:"Montserrat";
+    font-weight: 200;
+    font-size: 4rem;
+    width: 100%;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+
+.boxing-champs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100rem;
+    height: auto;
+    width: 100%;
+    gap: 30px;
+    padding-bottom: 5rem;
+    
+}
+
+.champion-img{
+    width:25rem;
+    height: auto;
+
+}
+
+.signup-btn2{
+    background-color: rgb(0, 142, 0);
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    text-transform: uppercase;
+    padding:2rem 6rem;
+    font-family:"Montserrat";
+    font-size: 1.7rem;
+    font-weight: 200;
+    border-radius: 50px;
+    
+}
+
+.signup-btn2:hover{
+    opacity: 0.8;
+}

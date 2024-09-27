@@ -1,0 +1,291 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+.my-motivation h1{
+    font-family:"Montserrat";
+    font-weight: 200;
+    font-size: 4rem;
+    width: 100%;
+    text-align: center;
+}
+hr{
+    width: 80%;
+}
+.body-box {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 0;
+    padding-top: 2rem; 
+}
+
+
+.offer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.offer {
+    font-size:calc(3vw + 3rem);
+    font-family: "Saira Condensed", sans-serif;
+    font-weight: 800;
+    color: rgb(16, 16, 16);
+    text-transform: uppercase;
+}
+
+.girlfight {
+    max-width: 100%; 
+    height: auto;    
+    margin-left: -30px;
+}
+
+.gym-story {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 100%; /* Made responsive */
+    margin-top: -30px;
+    padding-left: 150px; 
+}
+
+
+.card-box {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    margin: 0rem 1rem; 
+    
+}
+
+.card-box a{
+    text-decoration: none;
+}
+
+.card-items {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(33, 37, 40);
+    box-shadow: 0 4px 10px rgba(12, 5, 5, 0.1);
+    border-radius: 25px;
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    font-family: "Saira Condensed", sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    cursor: pointer; /* Removed pointer-events: auto */
+    
+}
+
+.card-items h1 {
+    margin-top: 0; /* Adjusted margin */
+    color: rgb(249, 249, 249);
+}
+
+.card-items p {
+    color: rgb(255, 255, 255);
+    margin-top: 0.4rem; /* Adjusted margin */
+    font-size: 1.6rem; /* Adjusted font-size for better consistency */
+}
+
+.card-items:hover {
+    background-color: rgb(255, 3, 3);
+    opacity: 0.8; /* Adjusted opacity */
+}
+
+.gym-wrapper {
+    background-color: white;
+    position: relative;
+    padding-bottom: 6.25rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-image: url('C:\Users\mcant\Gym Website React\GymWebsite\src\assets\images\free_gym_pic.webp');
+    background-size: cover;
+    min-height: 100vh;
+    z-index: 1;
+    width: 100%;
+    
+}
+
+.gym-wrapper::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.427);
+    z-index: 1;
+}
+
+.indoor-header {
+    margin-left: 2.5rem;
+    font-family: "Saira Condensed", sans-serif;
+    font-size: calc(3vw + 2rem); /* Responsive font size */
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    position: relative;
+    z-index: 2;
+    max-width: 50%;
+}
+
+.gym-image {
+    width: 80%; /* Adjusted for responsiveness */
+    height: auto; /* Adjusted for responsiveness */
+    position: relative;
+    left: 30%; /* Adjusted to percentage for responsiveness */
+    z-index: 2;
+    object-fit: contain;
+    
+}
+
+.content-box {
+    width: 30%;
+    position: relative;
+    margin-right: 2rem;
+    z-index: 2;
+}
+
+.content-box p {
+    font-family: "Saira Condensed", sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: rgb(250, 243, 239);
+}
+
+.closing-quotes {
+    float: right;
+}
+
+.classes-wrapper {
+    background-color: white;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap:2rem;
+}
+.motivation-speech{
+    font-family:"Montserrat";
+    font-weight: 200;
+    font-size: 4rem;
+    width: 100%;
+    text-align: center;
+    
+}
+.classes-trainers {
+    display: flex;
+    position: relative;
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    height: auto ;
+    margin:0;
+    padding: 0;
+   
+}
+
+.boxing-class, .personal-trainers {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    
+}
+
+.personal-trainers {
+    margin-left: 5%;
+}
+
+.boxing-class a, .personal-trainers a{
+    text-decoration: none;
+}
+
+
+.img-boxing-class, .img-boxing-trainer {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%; /* Adjusted for better scaling */
+    object-fit: cover;
+}
+
+.class-trainer-description {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    flex: 1;
+    
+}
+
+.class-trainer-description h1 {
+    color: white;
+    font-family: "Saira Condensed", sans-serif;
+    font-size: 3em;
+    font-weight: 700;
+    
+}
+
+.class-trainer-description p {
+    color: white;
+    font-family: "Saira Condensed", sans-serif;
+    font-size: 1em;
+    margin-top: 0.4rem;
+    font-weight: 200;
+}
+
+.boxing-class:hover, .personal-trainers:hover {
+    opacity: 0.8;
+}
+
+.journey-speech{
+    font-family:"Montserrat";
+    font-weight: 200;
+    font-size:4rem;
+    width: 100%;
+    text-align: center;
+    padding: 2rem;
+  
+}
+
+@media (max-width: 768px) {
+    .card-box {
+        flex-direction: column;
+        margin: 1rem 0;
+    }
+
+    .gym-wrapper {
+        background-position: center;
+        padding: 2rem 1rem;
+    }
+
+    .gym-image {
+        left: auto; /* Adjust position for smaller screens */
+    }
+
+    .offer {
+        font-size: 4rem; /* Smaller font for mobile */
+    }
+
+    .gym-story {
+        padding-left: 1rem; /* Adjust padding for smaller screens */
+    }
+
+    .content-box {
+        width: 90%; /* Full width for mobile */
+        margin: 0; /* Adjust margin for mobile */
+    }
+
+    .indoor-header {
+        font-size: 3rem; /* Smaller font size for mobile */
+    }
+}
+
+

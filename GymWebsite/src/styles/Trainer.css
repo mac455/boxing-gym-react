@@ -1,0 +1,143 @@
+.header-top{
+display: flex;
+height: 40vh;
+width: 100%;
+position: relative;
+overflow: hidden;
+}
+
+.half-header {
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+height: 100%;
+width: 50%;
+}
+
+/* Add a dark overlay to the image to blend better with the about-us section */
+.half-header::after {
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.5); /* 50% transparent dark overlay */
+z-index: 1; /* Ensure it stays above the image */
+}
+
+.trainer_img{
+position: relative;
+object-position: center; /* Centers the image */
+margin: 0;
+padding: 0;
+
+width: 100%;
+height:100%;
+object-fit: contain;/* Ensure the image fills the container */
+z-index: 0; /* Keep the image behind the overlay */
+}
+
+.img-half{
+background-color: rgba(0, 0, 0, 0.963);
+
+}
+
+.trainer-half {
+height: 100%;
+background: linear-gradient(
+ to right,
+rgba(255, 0, 0, 0.943) 30%,
+rgba(0, 0, 0, 0.963) 70%
+);
+}
+
+.Trainers {
+position: relative;
+color: rgb(197, 190, 190);
+padding: 2rem; /* Adjust padding if needed */
+z-index: 2;
+font-family:"Montserrat";
+font-weight: 200;
+font-size: 2rem;
+width: 100%;
+text-align: center;
+}
+
+.trainer-img-text-1 {
+    display: flex;
+    justify-content: start;
+    position: relative;
+    left: 5%;
+    margin-top: 5rem;
+    padding-bottom: 5rem;
+    max-width: 70rem;
+    max-height: 30rem;
+    gap: 8rem;
+}
+
+.trainer-img-text-2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+    position: relative;
+    padding-bottom: 5rem;
+    max-width: 70rem;
+    max-height: 30rem;
+    gap: 10rem;
+}
+.trainer-img-text-3{
+    display: flex;
+    justify-content: start;
+    position: relative;
+    left: 5%;
+    padding-bottom: 5rem;
+    max-width: 70rem;
+    gap: 10rem;
+}
+
+.Trainer-img{
+    max-width: 25rem;
+}
+.Trainer-img-long{
+    max-width: auto;
+    height: 25rem;
+    object-fit: cover;
+    object-position:bottom;
+    overflow:hidden;
+}
+
+.trainer-description-1{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.trainer-description-2{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.trainer-description-3{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.trainer-hr{
+    border: 0; 
+    height: 0.5vh; 
+    background-color: rgb(211, 0, 0); 
+    border-radius: 10px; 
+    width: 100%;  
+    margin-top: -2rem; 
+}
+
+.trainer-name{
+    
+    font-family:"Saira Condensed", sans-serif;
+    font-weight: 500;
+    font-size: 4rem;
+    
+}

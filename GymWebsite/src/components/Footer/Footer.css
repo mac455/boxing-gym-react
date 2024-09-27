@@ -1,0 +1,54 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(250, 243, 239); /* Off-white */
+  }
+.footer-wrapper{
+    background-color: black;
+    max-height: auto; /* Remove fixed height */
+    width: 100%; /* Full width of the viewport */
+    padding: 1rem; /* Add some padding */
+    display: flex;
+    flex-wrap: wrap; /* Let content wrap if it overflows */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+
+.contact-us{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: 0rem 2rem;
+}
+
+.contact-type{
+    display: flex;
+    color: white;
+}
+
+.svg-icon{
+    width: 2rem;
+    height: auto;
+    fill: white;
+    margin-right: 2rem ;
+}
+
+.contact-type-n{
+    display: flex;
+}
+@media (max-width: 768px) {
+    .footer-wrapper {
+        flex-direction: column; /* Stack content vertically */
+        text-align: center; /* Center the text for better fit */
+    }
+
+    .contact-us {
+        font-size: 1rem; /* Decrease font size */
+        margin: 0.5rem 0;
+    }
+
+    .svg-icon {
+        width: 2rem; /* Decrease SVG size */
+    }
+}

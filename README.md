@@ -1,4 +1,4 @@
-
+## Boxing Gym Website - React 
 
 This website is my first attempt at creating a fully functional website using React. 
 I chose to build a website for a brand new boxing gym because I love the sport and a boxing gym would be something I would love to own. 
@@ -17,4 +17,4 @@ In App.jsx,
 All other routes are wrapped in Layout routes becoming child routes of Layout. 
 For example, When a user visits the root URL (/), the Layout component is rendered first. Inside Layout, the Navbar is displayed, and the Outlet is empty initially. Then, The Home component is matched and rendered inside the <Outlet />. So the user sees the Navbar, the content of the Home component, and the Footer_section below.
 
-## Last Updated - 27/09/2024 - 10:49
+## Last Updated - 27/09/2024 

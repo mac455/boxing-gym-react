@@ -1,0 +1,129 @@
+.header-gymclass{
+    display: flex;
+    align-items: center;
+    height: 40vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background:linear-gradient(
+        to right,
+        rgba(255, 0, 0, 0.943) 40%,
+        rgba(0, 0, 0, 0.963) 65%
+    );
+
+; 
+}
+
+.header-gymclass::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* 50% transparent dark overlay */
+    z-index: 1;
+
+}
+
+.header-gymclass h1 {
+    position: relative;
+    top: 1rem;
+    font-family:"Montserrat";
+    font-weight: 200;
+    font-size: 3rem;
+    width: 100%;
+    text-align: center;
+    color: white;
+    z-index: 2;
+}
+
+
+.classes-wrapper-1{
+    display: flex;
+    justify-content: start;
+    position: relative;
+    left: 5%;
+    right: 5%;
+    margin-top: 5rem;
+    padding-bottom: 5rem;
+    max-width: 70rem;
+    max-height: 30rem;
+    gap: 8rem;
+}
+
+.classes-wrapper-2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+    position: relative;
+    left: 5%;
+    right: 5%;
+    padding-bottom: 5rem;
+    max-width: 70rem;
+    max-height: 30rem;
+    gap: 10rem;
+}
+.classes-wrapper-3{
+    display: flex;
+    justify-content: start;
+    position: relative;
+    left: 5%;
+    right: 5%;
+    padding-bottom: 5rem;
+    max-width: 70rem;
+    gap: 10rem;
+}
+
+.classes-img{
+    max-width: 30rem;
+}
+
+.classes-description-1{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.classes-description-2{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.classes-description-3{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.trainer-hr{
+    border: 0; 
+    height: 0.5vh; 
+    background-color: rgb(211, 0, 0); 
+    border-radius: 10px; 
+    width: 100%;  
+    margin-top: -2rem; 
+}
+
+.class-name{   
+    font-family:"Saira Condensed", sans-serif;
+    font-weight: 500;
+    font-size: 4rem;
+    
+}
+
+.book-now{
+    background-color: rgb(225, 0, 0);
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    text-transform: uppercase;
+    padding:0.5rem 1rem;
+    font-family:"Montserrat";
+    font-size: 1.7rem;
+    font-weight: 500;
+    border-radius: 50px;
+    width: 50%;
+    margin-top: 1rem;
+}

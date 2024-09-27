@@ -1,8 +1,8 @@
 import React from 'react'
 import Trainer_header from '../assets/images/Trainer_header.jpg'
-import Trainer_1 from '../assets/images/Trainer_1.jpg'
-import Trainer_2 from '../assets/images/Trainer_2.jpg'
-import Trainer_3 from '../assets/images/Trainer_3.jpg'
+import Trainer_1 from '../assets/images/Trainer_1.webp'
+import Trainer_2 from '../assets/images/Trainer_2.webp'
+import Trainer_3 from '../assets/images/Trainer_3.webp'
 import '../styles/Trainer.css'
 
 export default function Trainers() {

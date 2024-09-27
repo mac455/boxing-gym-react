@@ -6,6 +6,10 @@ I chose to build a website for a brand new boxing gym because I love the sport a
 The site was built using React + Vite. 
 The app is split into 6 components - Header, Body, Footer, Navbar, Layout and ScrollToTop.  Most are self-explantory. 
 
+##ScrollToTop component 
+This component is used to scroll the page to the top when changing routes 
+
+
 ## Layout component 
 
 The 'Layout' component was created so specific components such as 'Navbar' could be displayed across all pages. 

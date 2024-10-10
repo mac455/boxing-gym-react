@@ -20,5 +20,9 @@ Layout uses Outlet as a placeholder for the current route.
 In App.jsx, 
 All other routes are wrapped in Layout routes becoming child routes of Layout. 
 For example, When a user visits the root URL (/), the Layout component is rendered first. Inside Layout, the Navbar is displayed, and the Outlet is empty initially. Then, The Home component is matched and rendered inside the <Outlet />. So the user sees the Navbar, the content of the Home component, and the Footer_section below.
+## Home page 
 
-## Last Updated - 27/09/2024 
+![image](https://github.com/user-attachments/assets/575394d2-22e8-4c27-94b2-6192536d7c71)
+
+
+## Last Updated - 10/10/2024 

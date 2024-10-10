@@ -8,11 +8,6 @@ import { Link } from 'react-router-dom';
 export default function body() {
   return (
   <div>
-      <div className='my-motivation'>
-        <h1>The Infantry is a personal project,<br/> inspired by my love for the sport of boxing!</h1>
-      </div>
-      <hr/>
-
       <div className='body-box'>
         <div className='offer-container'>
           <h1 className='offer'>Our offer</h1>
@@ -24,7 +19,7 @@ export default function body() {
           <Link to='/SignUp'>
             <div className='card-items' id='card-1'>
               <h1 className='deal-name'>12 month saver</h1>
-              <p>Explore out ultra 12 month saver </p>
+              <p>Explore our ultra 12 month saver </p>
             </div>
           </Link>
 

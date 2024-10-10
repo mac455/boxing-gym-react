@@ -203,6 +203,9 @@ hr{
 
 .boxing-class a, .personal-trainers a{
     text-decoration: none;
+    display: block;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -222,7 +225,9 @@ hr{
     height: auto;
     background-color: black;
     flex: 1;
-    
+    margin: 0;
+    padding: 0;
+
 }
 
 .class-trainer-description h1 {

@@ -13,7 +13,7 @@ export default function Headertag() {
     <header className='diagonal-header'>
       <div className='header-half black-half'> 
         <h1 className='tagline'>
-            Welcome to <span style={{color:'red',}}>The infantry </span> by <span style={{fontStyle:'italic'}}>Mac</span>  <br />
+            Welcome to <span style={{color:'red',}}>The infantry </span>  <br />
         </h1>
         <h1 className='come-join-us'>
         Join us <span style={{color:'green'}}>TODAY!</span>

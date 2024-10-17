@@ -1,7 +1,7 @@
 ## Boxing Gym Website - React 
 
 This website is my first attempt at creating a fully functional website using React. 
-I chose to build a website for a brand new boxing gym because I love the sport and a boxing gym would be something I would love to own. 
+I chose to build a website for a brand new boxing gym because I enjoy sport and it was fun to design. 
 
 The site was built using React + Vite. 
 The app is split into 6 components - Header, Body, Footer, Navbar, Layout and ScrollToTop.  Most are self-explantory. 

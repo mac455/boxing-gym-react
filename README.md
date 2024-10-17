@@ -25,4 +25,3 @@ For example, When a user visits the root URL (/), the Layout component is render
 ![image](https://github.com/user-attachments/assets/575394d2-22e8-4c27-94b2-6192536d7c71)
 
 
-## Last Updated - 10/10/2024 

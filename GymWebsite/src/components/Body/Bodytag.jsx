@@ -1,7 +1,6 @@
 import React from 'react'
 import boxing_class from '../../assets/images/boxing_class (1).webp'
 import boxing_training from '../../assets/images/boxing_training (1).webp'
-import free_gym_pic from '../../assets/images/free_gym_pic.webp';
 import './Body.css'
 import { Link } from 'react-router-dom';
 

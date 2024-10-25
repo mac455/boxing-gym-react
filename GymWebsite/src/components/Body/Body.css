@@ -103,7 +103,7 @@ hr{
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    background-image: url('C:\Users\mcant\Gym Website React\GymWebsite\src\assets\images\free_gym_pic.webp');
+    background-image: url('/free_gym_pic.webp');
     background-size: cover;
     min-height: 100vh;
     z-index: 1;

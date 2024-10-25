@@ -6,3 +6,5 @@ I chose to build a website for a brand new boxing gym because I enjoy the sport 
 This website is built using React + Vite and organised into modular components to keep clean code. It’s designed to provide a smooth user experience and navigation across all pages.
 Available to visit [here!](https://boxing-gym-react.vercel.app/)
 
+*As this is my first project, it is currently only optimised for medium/large devices, in the process of updating for smaller devices*
+

@@ -3,6 +3,7 @@ import '../styles/Classes.css'
 import class_1 from'../assets/images/class_1.webp'
 import class_2 from'../assets/images/class_2.webp'
 import class_3 from'../assets/images/class_3.webp'
+import { Link } from 'react-router-dom'
 
 export default function Classes() {
   return (
@@ -20,7 +21,7 @@ export default function Classes() {
             </h1>
             <hr className='trainer-hr'/>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae illum nulla sed nam veritatis quisquam architecto! Soluta quis doloribus beatae nam culpa distinctio praesentium. Quae error explicabo ea dolorem magnam.</p>
-            <button className='book-now'>Book now!</button>
+           <Link to='/SignUp'> <button className='book-now'>Book now!</button></Link>
           </div>
         </div>
 
@@ -32,7 +33,7 @@ export default function Classes() {
             </h1>
             <hr className='trainer-hr'/>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae illum nulla sed nam veritatis quisquam architecto! Soluta quis doloribus beatae nam culpa distinctio praesentium. Quae error explicabo ea dolorem magnam.</p>
-            <button className='book-now'>Book now!</button>
+            <Link to='/SignUp'> <button className='book-now'>Book now!</button></Link>
           </div>
         </div>
 
@@ -44,7 +45,7 @@ export default function Classes() {
               </h1>
               <hr className='trainer-hr'/>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae illum nulla sed nam veritatis quisquam architecto! Soluta quis doloribus beatae nam culpa distinctio praesentium. Quae error explicabo ea dolorem magnam.</p>
-              <button className='book-now'>Book now!</button>
+              <Link to='/SignUp'> <button className='book-now'>Book now!</button></Link>
             </div>
         </div>
       

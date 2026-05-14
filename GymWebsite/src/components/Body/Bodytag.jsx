@@ -3,20 +3,20 @@ import boxing_training from '../../assets/images/boxing_training (1).webp'
 import { Link } from 'react-router-dom'
 
 const quoteIconClass =
-  'h-8 w-8 shrink-0 sm:h-10 sm:w-10 md:h-11 md:w-11 lg:h-12 lg:w-12 xl:h-14 xl:w-14 2xl:h-16 2xl:w-16 3xl:h-20 3xl:w-20 4xl:h-24 4xl:w-24 5xl:h-28 5xl:w-28'
+  'h-8 w-8 shrink-0 sm:h-10 sm:w-10 md:h-11 md:w-11 lg:h-12 lg:w-12 xl:h-14 xl:w-14 2xl:h-16 2xl:w-16'
 
 export default function body() {
   return (
     <div className="w-full">
-      <div className="flex justify-center px-3 pt-6 sm:px-4 sm:pt-8 md:px-6 md:pt-10 lg:px-8 lg:pt-12 xl:px-12 xl:pt-14 2xl:px-16 3xl:px-20 3xl:pt-16 4xl:px-24 5xl:px-28">
+      <div className="flex justify-center px-3 pt-6 sm:px-4 sm:pt-8 md:px-6 md:pt-10 lg:px-8 lg:pt-12 xl:px-12 xl:pt-14 2xl:px-16">
         <div className="flex flex-col items-center">
-          <h1 className="font-saira text-4xl font-extrabold uppercase text-neutral-900 sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl 3xl:text-[10rem] 4xl:text-[11rem] 5xl:text-[12rem]">
+          <h1 className="font-saira text-4xl font-extrabold uppercase text-neutral-900 sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl">
             Our offer
           </h1>
         </div>
       </div>
 
-      <div className="mx-auto flex max-w-[100rem] flex-wrap justify-center gap-4 px-3 py-6 sm:gap-5 sm:px-4 sm:py-8 md:gap-6 md:px-6 lg:gap-8 lg:px-8 lg:py-10 xl:gap-10 xl:px-12 2xl:gap-12 2xl:px-16 3xl:max-w-[min(120rem,96vw)] 3xl:gap-14 3xl:px-20 4xl:max-w-[min(140rem,96vw)] 4xl:gap-16 4xl:px-24 5xl:max-w-[min(160rem,96vw)] 5xl:gap-20 5xl:px-28">
+      <div className="mx-auto flex max-w-[100rem] flex-wrap justify-center gap-4 px-3 py-6 sm:gap-5 sm:px-4 sm:py-8 md:gap-6 md:px-6 lg:gap-8 lg:px-8 lg:py-10 xl:gap-10 xl:px-12 2xl:gap-12 2xl:px-16">
         {[
           { id: 'card-1', title: '12 month saver', text: 'Explore our ultra 12 month saver' },
           { id: 'card-2', title: '6 month deal', text: 'Join us for a 6-month special!' },
@@ -26,10 +26,10 @@ export default function body() {
           <Link key={id} to="/SignUp" className="min-w-[10rem] max-w-[22rem] flex-1 basis-[85%] no-underline sm:basis-[45%] md:basis-[40%] lg:basis-[22%] lg:min-w-[12rem] xl:max-w-[24rem] 2xl:max-w-[26rem]">
             <div
               id={id}
-              className="font-saira flex cursor-pointer flex-col rounded-3xl bg-[rgb(33,37,40)] p-4 text-center text-sm font-semibold capitalize shadow-md transition-colors hover:bg-red-600 hover:opacity-80 sm:p-5 sm:text-base md:p-6 md:text-lg lg:p-7 lg:text-xl xl:p-8 xl:text-2xl 2xl:p-9 2xl:text-[1.35rem] 3xl:p-10 3xl:text-2xl 4xl:p-12 4xl:text-[2.25rem] 5xl:p-14 5xl:text-[2.5rem]"
+              className="font-saira flex cursor-pointer flex-col rounded-3xl bg-[rgb(33,37,40)] p-4 text-center text-sm font-semibold capitalize shadow-md transition-colors hover:bg-red-600 hover:opacity-80 sm:p-5 sm:text-base md:p-6 md:text-lg lg:p-7 lg:text-xl xl:p-8 xl:text-2xl 2xl:p-9 2xl:text-[1.35rem]"
             >
               <h1 className="mt-0 text-white">{title}</h1>
-              <p className="mt-1 text-white sm:mt-2 sm:text-xl md:text-2xl lg:text-[1.65rem] xl:text-3xl 2xl:text-[2rem] 3xl:text-3xl 4xl:text-4xl 5xl:text-[2.75rem]">
+              <p className="mt-1 text-white sm:mt-2 sm:text-xl md:text-2xl lg:text-[1.65rem] xl:text-3xl 2xl:text-[2rem]">
                 {text}
               </p>
             </div>
@@ -38,14 +38,14 @@ export default function body() {
       </div>
 
       <div
-        className="relative z-[1] flex min-h-screen w-full flex-col gap-8 bg-white bg-cover bg-center bg-no-repeat px-4 pb-24 pt-10 before:absolute before:inset-0 before:z-[1] before:bg-black/40 before:content-[''] sm:gap-10 sm:px-5 sm:pb-28 sm:pt-12 md:gap-12 md:px-8 md:pb-32 lg:flex-row lg:items-start lg:justify-between lg:gap-14 lg:px-10 lg:pt-16 xl:gap-16 xl:px-14 xl:pb-36 2xl:mx-auto 2xl:max-w-[min(160rem,98vw)] 2xl:gap-20 2xl:px-20 2xl:pb-40 3xl:gap-24 3xl:px-24 4xl:gap-28 4xl:px-28 5xl:gap-32 5xl:px-32"
+        className="relative z-[1] flex min-h-screen w-full flex-col gap-8 bg-white bg-cover bg-center bg-no-repeat px-4 pb-24 pt-10 before:absolute before:inset-0 before:z-[1] before:bg-black/40 before:content-[''] sm:gap-10 sm:px-5 sm:pb-28 sm:pt-12 md:gap-12 md:px-8 md:pb-32 lg:flex-row lg:items-start lg:justify-between lg:gap-14 lg:px-10 lg:pt-16 xl:gap-16 xl:px-14 xl:pb-36 2xl:mx-auto 2xl:max-w-[100rem] 2xl:gap-20 2xl:px-20 2xl:pb-40"
         style={{ backgroundImage: "url('/free_gym_pic.webp')" }}
       >
-        <h1 className="font-saira relative z-[2] w-full max-w-full text-3xl font-semibold uppercase leading-tight text-white sm:text-4xl md:text-5xl lg:max-w-[48%] lg:text-6xl xl:text-7xl 2xl:max-w-[45%] 2xl:text-8xl 3xl:text-9xl 4xl:text-[10rem] 5xl:text-[11rem]">
+        <h1 className="font-saira relative z-[2] w-full max-w-full text-3xl font-semibold uppercase leading-tight text-white sm:text-4xl md:text-5xl lg:max-w-[48%] lg:text-6xl xl:text-7xl 2xl:max-w-[45%] 2xl:text-8xl">
           Have a look <br />
           inside !
         </h1>
-        <div className="font-saira relative z-[2] w-full max-w-full text-sm font-bold text-cream sm:text-base md:text-lg lg:w-[38%] lg:max-w-xl lg:self-center xl:w-[32%] xl:max-w-2xl xl:text-xl 2xl:w-[30%] 2xl:max-w-3xl 2xl:text-2xl 3xl:max-w-4xl 3xl:text-3xl 4xl:max-w-5xl 4xl:text-4xl 5xl:max-w-6xl 5xl:text-[2.65rem]">
+        <div className="font-saira relative z-[2] w-full max-w-full text-sm font-bold text-cream sm:text-base md:text-lg lg:w-[38%] lg:max-w-xl lg:self-center xl:w-[32%] xl:max-w-2xl xl:text-xl 2xl:w-[30%] 2xl:max-w-3xl 2xl:text-2xl">
           <svg
             className={`${quoteIconClass} mb-2`}
             height="48"
@@ -90,14 +90,14 @@ export default function body() {
         </div>
       </div>
 
-      <div className="flex w-full flex-col items-center gap-8 bg-white px-3 py-8 sm:gap-10 sm:px-4 sm:py-10 md:gap-12 md:px-6 md:py-12 lg:gap-14 lg:px-10 lg:py-14 xl:gap-16 xl:px-14 xl:py-16 2xl:gap-20 2xl:px-20 2xl:py-20 3xl:gap-24 3xl:px-24 4xl:gap-28 4xl:px-28 5xl:gap-32 5xl:px-32">
-        <div className="w-full max-w-6xl px-2 text-center sm:px-4 md:max-w-4xl lg:max-w-5xl xl:max-w-6xl 2xl:max-w-7xl 3xl:max-w-[min(100rem,92vw)] 4xl:max-w-[min(120rem,92vw)] 5xl:max-w-[min(140rem,92vw)]">
-          <h1 className="font-montserrat text-3xl font-extralight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl 3xl:text-9xl 4xl:text-[10rem] 5xl:text-[11rem]">
+      <div className="flex w-full flex-col items-center gap-8 bg-white px-3 py-8 sm:gap-10 sm:px-4 sm:py-10 md:gap-12 md:px-6 md:py-12 lg:gap-14 lg:px-10 lg:py-14 xl:gap-16 xl:px-14 xl:py-16 2xl:gap-20 2xl:px-20 2xl:py-20">
+        <div className="w-full max-w-6xl px-2 text-center sm:px-4 md:max-w-4xl lg:max-w-5xl xl:max-w-6xl 2xl:max-w-7xl">
+          <h1 className="font-montserrat text-3xl font-extralight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl">
             At <span className="italic text-red-600">The Infantry</span> <br /> We accommodate all
             skill levels
           </h1>
         </div>
-        <div className="mx-auto flex w-full max-w-[100rem] flex-col gap-6 md:flex-row md:gap-[5%] lg:gap-[6%] xl:gap-[7%] 2xl:gap-[8%] 3xl:max-w-[min(140rem,96vw)] 3xl:gap-[7%] 4xl:max-w-[min(160rem,96vw)] 5xl:max-w-[min(180rem,96vw)]">
+        <div className="mx-auto flex w-full max-w-[100rem] flex-col gap-6 md:flex-row md:gap-[5%] lg:gap-[6%] xl:gap-[7%] 2xl:gap-[8%]">
           <div className="group w-full md:w-1/2">
             <Link to="/Classes" className="block no-underline">
               <img
@@ -107,10 +107,10 @@ export default function body() {
                 loading="lazy"
               />
               <div className="flex min-h-[8rem] flex-col bg-black px-3 py-4 text-center sm:min-h-[9rem] sm:px-4 md:min-h-[10rem] lg:min-h-[11rem] xl:min-h-[12rem] 2xl:min-h-[14rem]">
-                <h1 className="font-saira text-2xl font-bold text-white sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl 3xl:text-8xl 4xl:text-9xl 5xl:text-[10rem]">
+                <h1 className="font-saira text-2xl font-bold text-white sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl">
                   Unlimited Classes
                 </h1>
-                <p className="font-saira mt-2 text-sm font-extralight text-white sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl 3xl:text-4xl 4xl:text-[2.35rem] 5xl:text-[2.65rem]">
+                <p className="font-saira mt-2 text-sm font-extralight text-white sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
                   We have unlimited classes available for all members
                 </p>
               </div>
@@ -125,10 +125,10 @@ export default function body() {
                 loading="lazy"
               />
               <div className="flex min-h-[8rem] flex-col bg-black px-3 py-4 text-center sm:min-h-[9rem] sm:px-4 md:min-h-[10rem] lg:min-h-[11rem] xl:min-h-[12rem] 2xl:min-h-[14rem]">
-                <h1 className="font-saira text-2xl font-bold text-white sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl 3xl:text-8xl 4xl:text-9xl 5xl:text-[10rem]">
+                <h1 className="font-saira text-2xl font-bold text-white sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl">
                   Personal trainers
                 </h1>
-                <p className="font-saira mt-2 text-sm font-extralight text-white sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl 3xl:text-4xl 4xl:text-[2.35rem] 5xl:text-[2.65rem]">
+                <p className="font-saira mt-2 text-sm font-extralight text-white sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
                   Our Personal Trainers are always available to help you meet your goal
                 </p>
               </div>
@@ -136,7 +136,7 @@ export default function body() {
           </div>
         </div>
         <div className="w-full px-2 py-6 text-center sm:px-4 sm:py-8 md:py-10 lg:py-12 xl:py-14 2xl:py-16">
-          <h1 className="font-montserrat text-3xl font-extralight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl 3xl:text-9xl 4xl:text-[10rem] 5xl:text-[11rem]">
+          <h1 className="font-montserrat text-3xl font-extralight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl">
             Are you ready to start <br />{' '}
             <span className="italic text-red-600">Your journey?</span>
           </h1>

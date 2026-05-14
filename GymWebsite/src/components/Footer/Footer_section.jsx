@@ -1,9 +1,9 @@
 export default function Footer() {
   return (
-    <footer className="box-border flex w-full flex-wrap bg-black p-4 sm:p-5 md:p-6 lg:p-8 xl:p-10 2xl:p-12 3xl:p-14 4xl:p-16 5xl:p-20">
-      <div className="mx-auto flex w-full max-w-[min(180rem,98vw)] flex-col flex-wrap gap-8 md:flex-row md:justify-between md:gap-12 lg:gap-16 xl:gap-20 2xl:gap-24 3xl:gap-28 4xl:gap-32 5xl:gap-40">
-        <div className="mx-0 flex flex-col text-white sm:mx-4 md:mx-6 lg:mx-8 3xl:mx-10 4xl:mx-12">
-          <h1 className="font-montserrat mb-3 text-xl font-semibold sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl 3xl:text-7xl 4xl:text-8xl 5xl:text-9xl">
+    <footer className="box-border flex w-full flex-wrap bg-black p-4 sm:p-5 md:p-6 lg:p-8 xl:p-10 2xl:p-12">
+      <div className="mx-auto flex w-full max-w-[100rem] flex-col flex-wrap gap-8 md:flex-row md:justify-between md:gap-12 lg:gap-16 xl:gap-20 2xl:gap-24">
+        <div className="mx-0 flex flex-col text-white sm:mx-4 md:mx-6 lg:mx-8">
+          <h1 className="font-montserrat mb-3 text-xl font-semibold sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl">
             Get in Touch
           </h1>
           <div className="flex items-center text-white">
@@ -24,7 +24,7 @@ export default function Footer() {
                 <polygon points="18,23 20,21 22,23 26,19 28,21 22,27" />
               </g>
             </svg>
-            <h2 className="font-montserrat break-all text-sm font-medium sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl">
+            <h2 className="font-montserrat break-all text-sm font-medium sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
               info@theinfantrygyms.com
             </h2>
           </div>
@@ -61,13 +61,13 @@ export default function Footer() {
                 strokeWidth="16"
               />
             </svg>
-            <p className="font-montserrat text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl">
+            <p className="font-montserrat text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
               0753 445 7845
             </p>
           </div>
         </div>
         <div className="mx-0 flex flex-col sm:mx-4 md:mx-6 lg:mx-8">
-          <h1 className="font-montserrat text-xl font-semibold text-white sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl 3xl:text-7xl 4xl:text-8xl 5xl:text-9xl">
+          <h1 className="font-montserrat text-xl font-semibold text-white sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl">
             Follow us online!
           </h1>
           <div className="social-icons mt-2 min-h-[1rem]" />

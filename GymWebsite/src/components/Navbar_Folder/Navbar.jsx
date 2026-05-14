@@ -1,19 +1,19 @@
 import { NavLink, Link } from 'react-router-dom'
 
 const linkBase =
-  'font-saira font-semibold uppercase no-underline transition-opacity hover:opacity-60 text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-[1.75rem] 3xl:text-[2rem] 4xl:text-[2.25rem] 5xl:text-[2.5rem]'
+  'font-saira font-semibold uppercase no-underline transition-opacity hover:opacity-60 text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-[1.75rem]'
 
 export default function Navbar() {
   return (
-    <div className="pointer-events-none absolute inset-x-0 top-0 z-[200] pt-3 sm:pt-4 md:pt-5">
-      <nav className="pointer-events-auto mx-auto flex w-full max-w-[min(180rem,98vw)] items-center justify-between gap-3 px-3 sm:gap-4 sm:px-4 md:px-5 lg:px-6 3xl:px-8 4xl:px-10 5xl:px-12">
+    <div className="pointer-events-none absolute inset-x-0 top-0 z-50 pt-3 px-10 sm:pt-4 md:pt-5">
+      <nav className="pointer-events-auto mx-auto flex w-full max-w-full items-center justify-between px-3 sm:gap-4 sm:px-4 md:px-5 lg:px-6 ">
         <Link
           to="/"
-          className="font-saira flex min-w-0 shrink-0 items-center gap-1 text-base font-semibold capitalize leading-none text-white no-underline sm:gap-1.5 sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl 3xl:text-5xl 4xl:text-6xl 5xl:text-7xl"
+          className="font-saira flex min-w-0 shrink-0 items-center gap-1 text-base font-semibold capitalize leading-none text-white no-underline sm:gap-1.5 sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl"
           aria-label="The Infantry home"
         >
           <svg
-            className="h-9 w-auto shrink-0 fill-white sm:h-10 md:h-11 lg:h-12 xl:h-14 2xl:h-16 3xl:h-[4.25rem] 4xl:h-20 5xl:h-24"
+            className="h-9 w-auto shrink-0 fill-white mr-4 sm:h-10 md:h-11 lg:h-12 xl:h-14 2xl:h-16"
             width="49"
             height="58"
             viewBox="0 0 49 58"
@@ -31,7 +31,7 @@ export default function Navbar() {
           </span>
         </Link>
 
-        <ul className="m-0 flex min-w-0 list-none flex-wrap items-center justify-end gap-x-2 gap-y-1 pl-0 sm:gap-x-3 md:gap-x-4 lg:gap-x-5 xl:gap-x-6 3xl:gap-x-8 4xl:gap-x-10 5xl:gap-x-12">
+        <ul className="m-0  flex min-w-0 list-none flex-wrap items-center justify-end gap-x-2 gap-y-1 pl-0 sm:gap-x-3 md:gap-x-4 lg:gap-x-5 xl:gap-x-6">
           <li>
             <NavLink
               to="/"
@@ -75,7 +75,7 @@ export default function Navbar() {
           <li className="ml-1 sm:ml-2 md:ml-3">
             <Link
               to="/SignUp"
-              className="inline-block rounded-full bg-red-600 px-3 py-1 font-saira text-xs font-extrabold uppercase text-white no-underline [text-shadow:0.08rem_0_0_black] sm:px-4 sm:py-1.5 sm:text-sm md:px-5 md:text-base lg:px-6 lg:text-lg xl:text-xl 3xl:px-7 3xl:text-2xl 4xl:px-8 4xl:text-3xl 5xl:px-10 5xl:text-4xl"
+              className="inline-block rounded-full bg-red-600 px-3 py-1 font-saira text-xs font-extrabold uppercase text-white no-underline [text-shadow:0.08rem_0_0_black] sm:px-4 sm:py-1.5 sm:text-sm md:px-5 md:text-base lg:px-6 lg:text-lg xl:text-xl"
             >
               Sign Up
             </Link>
